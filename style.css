@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Audiowide", sans-serif;
+}
+.header{
+	min-height: 85vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(image/banner.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background: #000;
+}
+ nav img{
+	width: 150px;
+	margin-left: 30px;
+	padding-top: 5px; 
+}
+.nav-link{
+	flex: 1;
+	text-align: right;
+}
+.nav-link ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-link ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+ul li a:hover{
+	background: orange;
+	padding: 7px;
+}
+.text-box{
+	color: #fff;
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	margin-top: 15px;
+}
+.text-box h1{
+	font-size: 45px;
+}
+.text-box p{
+	font-size: 15px;
+	margin: 10px 0 30px;
+	color: orange;
+}
+.btn{
+	font-size: 13px;
+	border: 1px solid;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+}
+.btn:hover{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1.2s;
+}
+.footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+.footer h4{
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.footer p{
+	font-size: 13px;
+	padding: 5px 0px;
+	color: orange;
+}
